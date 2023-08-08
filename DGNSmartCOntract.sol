@@ -19,8 +19,7 @@ contract DegenToken is ERC20, Ownable {
     }
 
     function calculatePrizeCost(uint256 prizeSelection) internal pure returns (uint256) {
-        // Implement your prize cost logic here based on prizeSelection
-        // Replace this with your own logic
+       
         return prizeSelection * 100;
     }
 
