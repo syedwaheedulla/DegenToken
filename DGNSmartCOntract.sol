@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "hardhat/console.sol"; // Import the console module
+import "hardhat/console.sol"; 
 
 contract DegenToken is ERC20, Ownable {
     event PrizeRedeemed(address indexed user, uint256 prizeSelection, uint256 prizeCost);
